@@ -13,7 +13,8 @@ var dir : Vector2 = Vector2.ZERO
 var mouse_pos : Vector2 = Vector2.ZERO
 var delayed_mouse_pos : Vector2 = Vector2.ZERO
 ##Change this in order to use the script on different objects
-var objNode : String = "Sprite"
+#put this on the visible object
+var objNode : String = "Visual"
 
 func _ready():
 	sprite = get_node(objNode)
